@@ -1,0 +1,167 @@
+html{
+    font-family: 'Lato', sans-serif;
+}
+
+/* Personal Info */
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.containerPosition{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+.profile{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.profilePosition{
+    width: 290px;
+    height: 350px;
+    padding: 6px;
+   background: linear-gradient(to bottom, #0784a8, #12205a);
+    border-radius: 50%;
+}
+
+.name{
+    font-size: 54px;
+    font-weight: 900;
+    color: #12205a;
+    text-transform: uppercase;
+}
+
+.profession{
+    font-size: 32px;
+    color: #0784a8;
+    text-transform: capitalize;
+    margin: 8px 0;
+}
+
+.summary{
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+}
+
+/* Content Area */
+
+.content{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+    width: 100%;
+    font-weight: 300;
+    }
+
+.leftContent{
+    width: 45%;
+    text-align: end;
+}
+
+.rightContent{
+    width: 45%;
+}
+
+.title{
+    font-size: 44px;
+    font-weight: 900;
+    margin: 30px 0 20px 0;
+    color: #0784a8;
+}
+
+.role{
+    color: #12205a;
+    font-size: 36px;
+    font-weight: 900;
+    }
+
+.company{
+    font-size: 24px;
+    color: #0784a8;
+}
+
+.date{
+    font-size: 14px;
+    color: grey;
+}
+
+.description {
+    margin: 0 0 20px;
+    color: #0784a8;
+    font-size: 20px;
+}
+
+.divider{
+    width: 8px;
+    border-radius: 4px;
+    margin: 0 80px;
+    background: linear-gradient(to bottom, #12205a, #0784a8)
+}
+
+.skill {
+    display:flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.skillName {
+    color: #0784a8;
+    font-weight: 300;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.skillBar {
+    width: 100%;
+    height: 8px;
+    background-color: grey
+}
+
+.skillCompleted {
+    height: 8px;
+    background-color: #12205a;
+}
+
+.languageBar {
+    width: 100%;
+    height: 8px;
+  margin: 10px 0;
+    background-color: grey
+}
+
+.languageMaster {
+    height: 8px;
+    background-color: #12205a;
+}
+
+.languageLevel {
+    font-size: 24px;
+    margin: 0 0 10px;
+    color: #0784a8;
+}
+
+.contactContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.contactText{
+    font-size: 28px;
+    color: #12205a;
+    margin: 0 10px;
+}
